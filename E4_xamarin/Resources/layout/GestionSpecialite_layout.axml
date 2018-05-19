@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:minWidth="25px"
+    android:minHeight="25px">
+    <Button
+        android:text="Inserer Specialite"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/btnInsertSPE"
+        android:background="@android:color/holo_blue_bright" />
+    <TextView
+        android:text="Choisissez un specialite pour le modifier :"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/textView1"
+        android:background="@android:color/black"
+        android:textColorHighlight="@android:color/holo_blue_bright"
+        android:textColor="@android:color/holo_orange_light" />
+    <ListView
+        android:minWidth="25px"
+        android:minHeight="25px"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/lstSPE"
+        android:layout_marginTop="0.0dp" />
+</LinearLayout>
